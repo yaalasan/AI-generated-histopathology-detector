@@ -17,7 +17,7 @@ A deep learning classifier that distinguishes **real histopathology images** fro
 
 | Training Loss | Validation Accuracy | Confusion Matrix |
 |---|---|---|
-| ![loss](https://raw.githubusercontent.com/yaalasan/AI-generated-histopathology-detector/main/assets/training_loss.png) | ![acc](assets/val_accuracy.png) | ![cm](assets/confusion_matrix.png) |
+| ![loss](https://raw.githubusercontent.com/yaalasan/AI-generated-histopathology-detector/main/assets/training_loss.png) | ![loss](https://raw.githubusercontent.com/yaalasan/AI-generated-histopathology-detector/main/assets/training_loss.png) | ![loss](https://raw.githubusercontent.com/yaalasan/AI-generated-histopathology-detector/main/assets/training_loss.png) |
 
 ---
 
