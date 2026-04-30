@@ -9,7 +9,7 @@ A deep learning classifier that distinguishes **real histopathology images** fro
 | Metric | Value |
 |---|---|
 | Validation Accuracy | 98.75% |
-| Test AUC | — (run evaluate.py) |
+| Test AUC | —  0.9977 |
 | False Positives (real misclassified as fake) | 0 |
 | False Negatives (fake misclassified as real) | 1 |
 
