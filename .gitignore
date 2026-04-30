@@ -1,0 +1,10 @@
+venv/
+outputs/
+dataset/fake/*
+dataset/real/*
+!dataset/fake/.gitkeep
+!dataset/real/.gitkeep
+__pycache__/
+*.pth
+*.pyc
+.env

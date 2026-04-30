@@ -1,0 +1,43 @@
+# ============================================================
+# Histopathology AI Detector — Training Configuration
+# ============================================================
+
+data:
+  data_dir: "dataset"
+  img_size: 224
+  train_split: 0.7
+  val_split: 0.15
+  # remaining 0.15 becomes test split
+  seed: 42
+
+training:
+  batch_size: 8
+  epochs: 20
+  learning_rate: 0.0001
+  num_workers: 0          # set to 2-4 if on Linux/Mac with enough RAM
+  early_stopping_patience: 5
+
+model:
+  architecture: "resnet18"   # options: resnet18, resnet50
+  pretrained: true
+  freeze_backbone: true
+  num_classes: 2
+
+augmentation:
+  enabled: true
+  horizontal_flip: true
+  vertical_flip: true
+  rotation_degrees: 15
+  color_jitter:
+    brightness: 0.2
+    contrast: 0.2
+    saturation: 0.1
+
+paths:
+  output_dir: "outputs"
+  model_save_path: "outputs/best_model.pth"
+  results_dir: "outputs/plots"
+
+device:
+  force_cpu: false          # set true to force CPU even if GPU is available
+  num_threads: 4            # CPU threads (used only when on CPU)
