@@ -1,8 +1,8 @@
 # Histopathology AI Image Detector
 
-A deep learning classifier that distinguishes **real histopathology images** from **AI-generated fakes**, using transfer learning on ResNet-18.
-
+Description: Binary classifier to detect AI-generated histopathology images using transfer learning on ResNet-18
 ---
+Topics: deep-learning, pytorch, medical-imaging, histopathology, transfer-learning, resnet
 
 ## Results
 
