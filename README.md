@@ -20,7 +20,7 @@
 ## Project Structure
 
 ```
-histopathology-detector/
+AI-generated-histopathology-detector/
 |
 |-- configs/
 |   +-- config.yaml          # All hyperparameters in one place
@@ -55,8 +55,8 @@ histopathology-detector/
 ## Setup
 
 ```bash
-git clone https://github.com/yourusername/histopathology-detector.git
-cd histopathology-detector
+git clone https://github.com/yaalasan/AI-generated-histopathology-detector.git
+cd AI-generated-histopathology-detector
 
 python -m venv venv
 source venv/bin/activate        # Windows: venv\Scripts\activate
