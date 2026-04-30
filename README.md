@@ -17,7 +17,7 @@ Topics: deep-learning, pytorch, medical-imaging, histopathology, transfer-learni
 
 | Training Loss | Validation Accuracy | Confusion Matrix |
 |---|---|---|
-| ![loss](https://raw.githubusercontent.com/yaalasan/AI-generated-histopathology-detector/main/assets/training_loss.png) | ![loss](https://raw.githubusercontent.com/yaalasan/AI-generated-histopathology-detector/main/assets/validation_accuracy.png) | ![loss](https://raw.githubusercontent.com/yaalasan/AI-generated-histopathology-detector/main/assets/confusion_matrix.png) |
+| ![loss](https://raw.githubusercontent.com/yaalasan/AI-generated-histopathology-detector/main/assets/training_loss.png) | ![loss](https://raw.githubusercontent.com/yaalasan/AI-generated-histopathology-detector/main/assets/val_accuracy.png) | ![loss](https://raw.githubusercontent.com/yaalasan/AI-generated-histopathology-detector/main/assets/confusion_matrix.png) |
 
 ---
 
